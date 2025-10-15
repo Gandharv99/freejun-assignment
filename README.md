@@ -44,7 +44,7 @@ python manage.py migrate
 5. Run Server
 python manage.py runserver
 
-
+```
 Server will be available at 👉 http://127.0.0.1:8000/
 
 Docker Setup (Optional)

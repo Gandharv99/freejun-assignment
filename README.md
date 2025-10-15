@@ -47,19 +47,23 @@ python manage.py runserver
 ```
 Server will be available at 👉 http://127.0.0.1:8000/
 
-Docker Setup (Optional)
-
+---
+##Docker Setup (Optional)
+```bash
 To run using Docker:
 
 docker-compose up --build
+```
+---
+##API Endpoints
 
-API Endpoints
-Method	Endpoint	Description
-POST	/api/v1/bookings/	Book a room
-POST	/api/v1/cancel/<booking_id>/	Cancel a booking
-GET	/api/v1/bookings/	View all bookings
-GET	/api/v1/rooms/available/	Check available rooms
-Notes
+###Method	  ###Endpoint	                  ###Description
+POST	      /api/v1/bookings/	            Book a room
+POST	      /api/v1/cancel/<booking_id>/	Cancel a booking
+GET	        /api/v1/bookings/	            View all bookings
+GET	        /api/v1/rooms/available/	    Check available rooms
+---
+##Notes
 
 Shared desks allow up to 4 users per slot.
 
@@ -68,7 +72,7 @@ Conference rooms require a team of 3 or more.
 Children under 10 count in headcount but not seat count.
 
 Once a booking is canceled, the slot becomes available again.
-
+---
 Gandharv Kumar Singh
 Software Developer
 (Assignment for FreJun Backend Challenge)

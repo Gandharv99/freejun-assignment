@@ -74,7 +74,8 @@ Conference rooms require a team of 3 or more.
 Children under 10 count in headcount but not seat count.
 
 Once a booking is canceled, the slot becomes available again.
+
 ---
-Gandharv Kumar Singh
-Software Developer
+Gandharv Kumar Singh|
+Software Developer|
 (Assignment for FreJun Backend Challenge)

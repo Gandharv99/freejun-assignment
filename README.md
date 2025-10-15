@@ -76,6 +76,6 @@ Children under 10 count in headcount but not seat count.
 Once a booking is canceled, the slot becomes available again.
 
 ---
-Gandharv Kumar Singh|
-Software Developer|
-(Assignment for FreJun Backend Challenge)
+**Gandharv Kumar Singh**  
+*Software Developer*  
+*(Assignment for FreJun Backend Challenge)*

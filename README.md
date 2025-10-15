@@ -65,6 +65,17 @@ docker-compose up --build
 | **GET** | `/api/v1/rooms/available/` | Check available rooms |
 
 ---
+
+## API Documentation
+
+You can explore and test the API through the following UIs:
+
+- **Swagger UI:** [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/swagger/)
+- **ReDoc:** [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
+- **Browsable API (DRF default):** [http://127.0.0.1:8000/api/v1/](http://127.0.0.1:8000/api/v1/)
+
+---
+
 ## Notes
 
 Shared desks allow up to 4 users per slot.

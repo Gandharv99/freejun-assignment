@@ -4,6 +4,8 @@ A simple REST API built using Django REST Framework for managing workspace room 
 This project is part of the FreJun Backend Developer Challenge.
 
 
+
+
 **Features**
 
 Book a room for a specific time slot (9 AM – 6 PM)
@@ -17,6 +19,8 @@ Check room availability
 Handles private rooms, conference rooms, and shared desks
 
 
+
+
 **Tech Stack**
 
 Backend: Django, Django REST Framework
@@ -24,6 +28,8 @@ Backend: Django, Django REST Framework
 Database: SQLite (for local dev)
 
 Container: Docker, Docker Compose
+
+
 
 
 **Setup Instructions**
@@ -48,11 +54,19 @@ python manage.py runserver
 Server will be available at
 👉 http://127.0.0.1:8000/
 
+
+
+
 **Docker Setup (Optional)**
 
 To run using Docker:
 
 docker-compose up --build
+
+
+
+
+
 
 **API Endpoints**
 Method	 Endpoint	                      Description
@@ -60,6 +74,9 @@ POST	  /api/v1/bookings/	              Book a room
 POST	  /api/v1/cancel/<booking_id>/	  Cancel a booking
 GET	    /api/v1/bookings/	              View all bookings
 GET	    /api/v1/rooms/available/	      Check available rooms
+
+
+
 
 
 **Notes**
